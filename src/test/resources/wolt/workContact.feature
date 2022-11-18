@@ -14,7 +14,7 @@ Feature: WorkContact page
       """
 
   @WorkContactFaker
-  Scenario: Valid Registration Form Information (Faker)
+  Scenario: Valid Registration Form Information with Faker1
     Given I am on Work contact page
     When I fill out a registration form header
     And I click on Contact us button
@@ -24,7 +24,7 @@ Feature: WorkContact page
       """
 
   @WorkContactWithFaker
-  Scenario: Valid Registration Form Information with Faker
+  Scenario: Valid Registration Form Information with Faker2
     Given I am on Work contact page
     When I fill out a registration form header with Faker
     And I click on Contact us button

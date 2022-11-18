@@ -32,7 +32,6 @@ public class WorkContactPage extends Page {
 
     }
 
-
     public WorkContactFormPage clickOnContactUsBtn() {
         $(contactUsBtn).click();
         return page(WorkContactFormPage.class);
@@ -47,6 +46,4 @@ public class WorkContactPage extends Page {
         $(companySizeField).selectOption(companySize[faker.random().nextInt(companySize.length)]);
         $(countryField).selectOption(country[faker.random().nextInt(country.length)]);
     }
-
 }
-

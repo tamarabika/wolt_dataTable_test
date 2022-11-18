@@ -28,7 +28,6 @@ public class WorkContactPageSteps extends BaseSteps {
         String companySize = signUpForms.get(0).get(2);
         String country = signUpForms.get(0).get(3);
         workContactPage.fillInDataFields(email, company, companySize, country);
-
     }
 
     @When("I click on Contact us button")
