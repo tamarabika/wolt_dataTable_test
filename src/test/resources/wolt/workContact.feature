@@ -22,3 +22,13 @@ Feature: WorkContact page
       """
       How to Wolt at Work
       """
+
+  @WorkContactWithFaker
+  Scenario: Valid Registration Form Information with Faker
+    Given I am on Work contact page
+    When I fill out a registration form header with Faker
+    And I click on Contact us button
+    Then I see Work contact form page
+      """
+      How to Wolt at Work
+      """
